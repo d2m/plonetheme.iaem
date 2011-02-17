@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="plonetheme.iaem">
+
+  <include package=".browser" />
+  <cmf:registerDirectory name="iaem"/>
+
+  <genericsetup:registerProfile
+      name="default"
+      title="plonetheme.iaem: default"
+      directory="profiles/default"
+      description='plonetheme.iaem default profile.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

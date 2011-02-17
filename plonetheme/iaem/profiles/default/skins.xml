@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+    default_skin="iaem_theme">
+  <object name="iaem"
+      meta_type="Filesystem Directory View"
+      directory="plonetheme.iaem:skins/iaem"/>
+  <skin-path name="iaem_theme" based-on="Sunburst Theme">
+    <layer name="iaem" insert-after="custom"/>
+   </skin-path>
+</object>

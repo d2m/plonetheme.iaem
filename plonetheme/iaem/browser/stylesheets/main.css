@@ -1,0 +1,63 @@
+body {
+	background-color: #F7F6CD;
+}
+#portal-top {
+	background: url(++resource++plonetheme.iaem.images/iaem_bg.png);
+	border-bottom: 1em solid #F7EF08;
+}
+
+div.position-0 {
+	margin-left: -97% !important;
+}
+div.width-full {
+	width: 94% !important;
+}
+#portal-globalnav li a:hover {
+background-color: #F7EF08;
+border-color: #210884;
+border-bottom-color: #F7EF08;
+color: black;
+}
+#portal-globalnav li.selected a {
+background-color: #F7EF08;
+border: 0px solid #210884;
+border-bottom: #F7EF08 0px solid;
+color: black;
+}
+#portal-globalnav li a {
+background-color: #D6CDF7;
+border-color: #210884;
+color: #210884;
+}
+#portal-globalnav li a {
+background-color: transparent;
+border-color: #210884;
+border-width: 0px;
+border-style: solid solid none solid;
+color: black;
+height: auto;
+margin-right: 0.0em;
+padding: 0em 1.25em;
+text-decoration: none;
+text-transform: None;
+text-align: center;
+}
+
+#portal-globalnav {
+    background-color: transparent;
+	margin: 0;
+}
+#portal-globalnav li {
+    background-color: #D6CDF7;
+}
+
+#portal-footer {
+background-color: #F7EF08;
+border-top: 1px solid #210884;
+border-bottom: 1px solid #210884;
+float: none;
+line-height: 1.2em;
+margin: 2em 0em 1em 0em;
+padding: 0.5em 0em 1em 0em;
+text-align: center;
+}

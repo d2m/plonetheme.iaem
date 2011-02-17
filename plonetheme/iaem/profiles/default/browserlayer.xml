@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+  <layer name="iaem_theme"
+    interface="plonetheme.iaem.browser.interfaces.IIaemTheme" />
+</layers>
